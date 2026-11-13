@@ -1,0 +1,22 @@
+# Python virtual environments & caches
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Build & packaging
+build/
+dist/
+*.spec
+*.egg-info/
+
+# Secrets & local config
+.env
+
+# OS & logs
+.DS_Store
+Thumbs.db
+*.log

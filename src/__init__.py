@@ -1,0 +1,3 @@
+"""
+OpenWhispr Windows Package
+"""

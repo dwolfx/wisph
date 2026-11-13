@@ -1,0 +1,14 @@
+/* Folha de estilos dedicada da Pílula Flutuante */
+
+QLabel#statusIcon {
+    font-size: 13px;
+    padding: 0px;
+}
+
+QLabel#statusLabel {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Segoe UI', -apple-system, sans-serif;
+    padding-left: 2px;
+}

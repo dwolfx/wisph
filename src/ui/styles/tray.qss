@@ -1,0 +1,27 @@
+/* Folha de estilos dedicada do Menu da Bandeja (System Tray) */
+
+QMenu {
+    background-color: #181920;
+    color: #FFFFFF;
+    border: 1px solid #333644;
+    border-radius: 8px;
+    padding: 6px;
+    font-family: 'Segoe UI', -apple-system, sans-serif;
+    font-size: 13px;
+}
+
+QMenu::item {
+    padding: 6px 24px 6px 12px;
+    border-radius: 4px;
+}
+
+QMenu::item:selected {
+    background-color: #8B5CF6;
+    color: #FFFFFF;
+}
+
+QMenu::separator {
+    height: 1px;
+    background: #2D303E;
+    margin: 4px 8px;
+}
